@@ -1,0 +1,89 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2025-08-05T07:59:32.225Z",
+        "line": 5,
+        "name": "Check login with valid credentials",
+        "description": "",
+        "id": "login-functionality-test;check-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2004500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on login page",
+            "match": {
+              "location": "Stepdefinitions.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters valid username and password",
+            "match": {
+              "location": "Stepdefinitions.LoginSteps.user_enters_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clicks on login button",
+            "match": {
+              "location": "Stepdefinitions.LoginSteps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1429100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "Stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokefeature"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "login functionality test",
+    "description": "",
+    "id": "login-functionality-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": [
+      {
+        "name": "@smokefeature",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
