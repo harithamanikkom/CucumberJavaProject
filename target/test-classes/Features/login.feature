@@ -1,5 +1,6 @@
 
 @smokefeature
+
 Feature: login functionality test
 @smoketest
   Scenario: Check login with valid credentials
