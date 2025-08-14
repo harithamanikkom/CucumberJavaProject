@@ -8,6 +8,6 @@ Feature: Test Login Functionality
     Then user is navigated to home page
 
     Examples: 
-      | username | password |
-      | Admin    | admin123 |
-      | asdd|ppp|
+      | username | password    |
+      | student  | Password123 |
+      | stu      | pass        |
